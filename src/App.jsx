@@ -9,6 +9,7 @@ import PicsSection from './components/PicsSection'
 import Brands from './components/Brands'
 import Testimonial from './components/Testimonial'
 import Contributer from './components/Contributer'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Brands/>
       <Testimonial />
       <Contributer/>
+      <Footer/>
       <Routes>
         <Route />
       </Routes>
