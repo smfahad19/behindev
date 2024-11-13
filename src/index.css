@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 body {
-  background: linear-gradient(to bottom, 
-    #0A0A0A 20%, 
-    #545454 50%,  
-    #171717 70% 
-  );
+  background-color: black;
   background-size: 100% 100%;
   background-attachment: fixed;
   width: 100%;
@@ -17,6 +13,7 @@ body {
   flex-direction: column;
   position: relative;
 }
+
 
 .center-column {
   position: absolute;
